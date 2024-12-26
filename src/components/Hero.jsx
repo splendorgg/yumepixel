@@ -4,6 +4,8 @@ import Button from "./Button"
 import Section from "./Section"
 import { curve, heroBackground, robot } from '../assets'
 import { useRef } from "react"
+import { BottomLine, Gradient } from "./design/BottomLine"
+import Generating from "./Generating"
 
 const Hero = () => {
     const parallaxRef = useRef(null)
@@ -15,7 +17,7 @@ const Hero = () => {
                         Explore the Possibilities of AI Chatting with {''}
                         <span className="inline-block relative">YumePixel{" "} <img src={curve} className="absolute top-full left-0 w-full xl:mt-2 " width={624} height={28} alt="Curve" /></span>
                     </h1>
-                    <p className="body-1 max-w-3xl mx-auto mb-6 text-n-2 lg:mb-8">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique.</p>
+                    <p className="body-1 max-w-3xl mx-auto mb-6 text-n-2 lg:mb-8">Unleash the power of AI within Brainwave. Upgrade your productivity with Brainwave, the open AI chat app.</p>
                     <Button href='/pricing' white>
                         Get started
                     </Button>
@@ -28,6 +30,7 @@ const Hero = () => {
                                 <img src={robot} className="w-full scale-[1.7] translate-y-[8%] md:scale-[1] md:-translate-y-[10%] lg:-translate-y-[23%]"
                                     width={1024} height={490} alt="AI"
                                 />
+                                <Generating className="absolute left-4 right-4 bottom-5 md:left-1/2 md:right-auto md:bottom-8 md:w-[31rem] md:-translate-x-1/2" />
                                 <ScrollParallax isAbsolutelyPositioned>
                                     <ul className="hidden absolute -left-[5.5rem] bottom-[7.5rem] px-1 py-1 bg-n-9/40 backdrop-blur border border-n-1/10 rounded-2xl xl:flex">
                                         {heroIcons.map((icon, index) => (
@@ -40,11 +43,13 @@ const Hero = () => {
                             </div>
                         </div>
                     </div>
+                    <Gradient />
                 </div>
                 <div className="absolute -top-[54%] left-1/2 w-[234%] -translate-x-1/2 md:-top-[46%] md:w-[138%] lg:-top-[104%]">
                     <img src={heroBackground} width={1440} height={1800} alt="hero" className="w-full" />
                 </div>
             </div>
+            <BottomLine />
         </Section >
     )
 }
