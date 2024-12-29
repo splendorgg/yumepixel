@@ -54,17 +54,12 @@ export const navigation = [
   },
   {
     id: "3",
-    title: "Roadmap",
-    url: "#roadmap",
-  },
-  {
-    id: "4",
     title: "New account",
     url: "#signup",
     onlyMobile: true,
   },
   {
-    id: "5",
+    id: "4",
     title: "Sign in",
     url: "#login",
     onlyMobile: true,
@@ -77,13 +72,13 @@ export const notificationImages = [notification4, notification3, notification2];
 
 export const companyLogos = [yourlogo, yourlogo, yourlogo, yourlogo, yourlogo];
 
-export const brainwaveServices = [
+export const yumepixelServices = [
   "Photo generating",
   "Photo enhance",
   "Seamless Integration",
 ];
 
-export const brainwaveServicesIcons = [
+export const yumepixelServicesIcons = [
   recording03,
   recording01,
   disc02,
@@ -244,8 +239,8 @@ export const pricing = [
 export const benefits = [
   {
     id: "0",
-    title: "Ask anything",
-    text: "Lets users quickly find answers to their questions without having to search through multiple sources.",
+    title: "Instant Answers",
+    text: "Empowers users to get precise answers to their questions effortlessly, without the need to navigate through countless sources.",
     backgroundUrl: "./src/assets/benefits/card-1.svg",
     iconUrl: benefitIcon1,
     imageUrl: benefitImage2,

@@ -1,5 +1,5 @@
 import { check, service1, service2, service3 } from "../assets"
-import { brainwaveServices, brainwaveServicesIcons } from "../constants"
+import { yumepixelServices, yumepixelServicesIcons } from "../constants"
 import Generating from "./Generating"
 import Heading from "./Heading"
 import Section from "./Section"
@@ -19,7 +19,7 @@ const Services = () => {
                             <h4 className="h4 mb-4">Smartest AI</h4>
                             <p className="body-2 mb-[3rem] text-n-3">YumePixel unlocks the potential of AI-powered applications</p>
                             <ul className="body-2">
-                                {brainwaveServices.map((service, index) => (
+                                {yumepixelServices.map((service, index) => (
                                     <li key={index} className="flex items-start py-4 border-t border-n-6">
                                         <img src={check} alt="check" width={24} height={24} />
                                         <p className="ml-4">{service}</p>
@@ -46,7 +46,7 @@ const Services = () => {
                                 <h4 className="h4 mb-4">Video generation</h4>
                                 <p className="body-2 mb-[2rem] text-n-3">The world&apos;s most powerful AI photo and video art generation engine. What will you create?</p>
                                 <ul className="flex items-center justify-between">
-                                    {brainwaveServicesIcons.map((icon, index) => (
+                                    {yumepixelServicesIcons.map((icon, index) => (
                                         <li key={index} className={`rounded-2xl flex items-center justify-center ${index === 2 ? "w-[3rem] h-[3rem] p-0.25 bg-conic-gradient md:w-[4.5rem] md:h-[4.5rem]" : "flex w-10 h-10 bg-n-6 md:w-15 md:h-15"}`}>
                                             <div className={index === 2 ? "flex items-center justify-center w-full h-full bg-n-7 rounded-[1rem]" : ""}>
                                                 < img src={icon} alt={icon} width={24} height={24} />
