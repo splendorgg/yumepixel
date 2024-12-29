@@ -43,13 +43,14 @@ export const navigation = [
   },
   {
     id: "1",
-    title: "Pricing",
-    url: "#pricing",
+    title: "How to use",
+    url: "#how-to-use",
   },
   {
     id: "2",
-    title: "How to use",
-    url: "#how-to-use",
+    title: "Pricing",
+    url: "#pricing",
+
   },
   {
     id: "3",
