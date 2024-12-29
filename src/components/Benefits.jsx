@@ -2,6 +2,7 @@ import { benefits } from "../constants"
 import Heading from "./Heading"
 import Section from "./Section"
 import Arrow from "../assets/svg/Arrow";
+import ClipPath from "../assets/svg/ClipPath";
 
 const Benefits = () => {
     return (
@@ -21,6 +22,16 @@ const Benefits = () => {
                                     <Arrow />
                                 </div>
                             </div>
+                            <div className="absolute inset-0.5 bg-n-8 " style={{ clipPath: "url(#benefits)" }}>
+                                <div className="absolute inset-0 opacity-0 transition-opacity hover:opacity-10">
+                                    {benefit.imageUrl && (
+                                        <img src={benefit.imageUrl} width={380} height={362} alt={benefit.title} className="w-full h-full object-cover">
+                                        </img>
+                                    )
+                                    }
+                                </div>
+                            </div>
+                            <ClipPath />
                         </div>
                     ))}
                 </div>
