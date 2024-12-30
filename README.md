@@ -5,7 +5,7 @@ YumePixel is a cutting-edge website built with React.js and Tailwind CSS, showca
 
 
 ## 🌐 Live Demo
-Check out the live version of the project: [**Live Site**]()
+Check out the live version of the project: [**Live Site**](https://yumepixel.vercel.app/)
 Explore the fully functional application and see it in action!
 
 ## Getting Started
