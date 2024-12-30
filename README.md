@@ -39,10 +39,8 @@ npm run dev
 ![ScreenShot](/public/3.png)
 
 ### Mobile Menu
-<div style="display: flex; gap: 10px;">
-  <img src="/public/4.png" alt="Screenshot 1" width="50%"/>
-  <img src="/public/5.png" alt="Screenshot 2" width="50%"/>
-</div>
+![ScreenShot](/public/mobile.png)
+
 
 # Technologies Used
 - **React**(v18.3.1)
@@ -50,4 +48,3 @@ npm run dev
 - **React Router Dom**
 - **Vite**
 - **Tailwind CSS**
-- **React**
