@@ -9,7 +9,6 @@ Check out the live version of the project: [**Live Site**]()
 Explore the fully functional application and see it in action!
 
 ## Getting Started
-
 Ensure you have [Git](https://git-scm.com/) and [Node](https://nodejs.org/en) (v22.11.0) installed.
 
 #### Clone this repository
@@ -28,15 +27,19 @@ npm install
 npm run dev
 ```
 
-
 ## Project Walk-Through
 
+### Landing Section
+![ScreenShot](/public/1.png)
 
-### 
-![ScreenShot](/public/)
+### Collaboration Section
+![ScreenShot](/public/2.png)
 
+### Features Section
+![ScreenShot](/public/3.png)
 
-
+### Mobile Menu
+![ScreenShot](/public/4.png)
 
 # Technologies Used
 - **React**(v18.3.1)
